@@ -61,7 +61,18 @@
             Effective Solutions<br />
             for Your Business
           </h1>
-          <button type="button" class="hero-button">Order Service</button>
+          <button type="button" class="hero-button" data-modal-open>
+            Order Service
+          </button>
+        </div>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button type="button" class="modal-close-black" data-modal-close>
+              <svg class="icon-close-black">
+                <use href="./images/icons.svg#icon-close-black"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </section>
       <!-- Our strengths section -->
@@ -413,5 +424,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
